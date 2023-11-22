@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="yeniden_izle">Yeniden İzleyin</string>
+    <string name="diziler">Diziler</string>
+    <string name="filmler">Filmler</string>
+    <string name="listem">Listem</string>
+    <string name="netflixte_populer">Netflix\'te Popüler</string>
+    <string name="gundemdekiler">Gündemdekiler</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="ara">Ara</string>
+    <string name="cok_yakinda">Çok Yakında</string>
+    <string name="indirilenler">İndirilenler</string>
+    <string name="daha_fazla">Daha Fazla</string>
+
+</resources>
