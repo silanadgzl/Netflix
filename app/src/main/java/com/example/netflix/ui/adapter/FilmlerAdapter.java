@@ -42,7 +42,6 @@ public class FilmlerAdapter extends RecyclerView.Adapter<FilmlerAdapter.ViewHold
 
         t.imageViewFilm.setImageResource(context.getResources().getIdentifier(film.getResim(),
                 "drawable", context.getPackageName()));
-
     }
 
     @Override

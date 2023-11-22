@@ -21,16 +21,16 @@ public class AnasayfaFragment extends Fragment {
         binding.watch.setLayoutManager(new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.HORIZONTAL));
 
 
-      FilmlerAdapter filmlerAdapter = new FilmlerAdapter(FilmList.getPopuler(),requireContext());
-      binding.popular.setAdapter(filmlerAdapter);
+      FilmlerAdapter populerA = new FilmlerAdapter(FilmList.getPopuler(),requireContext());
+      binding.popular.setAdapter(populerA);
 
 
-    FilmlerAdapter gA = new FilmlerAdapter(FilmList.getGundemdekiler(),requireContext());
-    binding.trending.setAdapter(gA);
+    FilmlerAdapter gundemA = new FilmlerAdapter(FilmList.getGundemdekiler(),requireContext());
+    binding.trending.setAdapter(gundemA);
 
 
-    FilmlerAdapter yi = new FilmlerAdapter(FilmList.getYenidenIzle(),requireContext());
-    binding.watch.setAdapter(yi);
+    FilmlerAdapter yenidenIzleA = new FilmlerAdapter(FilmList.getYenidenIzle(),requireContext());
+    binding.watch.setAdapter(yenidenIzleA);
 
 
       return binding.getRoot();
